@@ -3,5 +3,5 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
 
-  extends: ["./layers/base"],
+  extends: ["../layers/base"],
 });
