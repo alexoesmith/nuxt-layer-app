@@ -3,11 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
 
-  extends: [
-    process.env.NODE_ENV === "development"
-      ? "../layer"
-      : ["github:alexoesmith/nuxt-layer", { install: true }],
-  ],
+  extends: [["github:alexoesmith/nuxt-layer", { install: true }]],
 
   components: [
     {
